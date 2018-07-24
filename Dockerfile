@@ -10,7 +10,7 @@ RUN apt-get update
 
 # --- Install Utility Programs
 
-RUN apt-get install -y python curl build-essential python-opencv
+RUN apt-get install -y python python-dev curl build-essential python-opencv
 
 # ------------------------------------------------------
 
